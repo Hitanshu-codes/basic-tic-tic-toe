@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  /* height: 100px; */
+  margin: auto;
+  padding: 0%;
+  margin: 0%;
+}
+
+.board-row {
+  display: flex;
+  height: 100px;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,7 +48,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 0%;
+  padding: 0%;
+  font-size: xxx-large;
 }
